@@ -4,7 +4,7 @@
     "subtitle": "Find the nearby places around your location.",
     "description": "This is the vue app that allows you to find the nearby places around you using tomtom map api and services to do requests.",
     "technologies": ["Vue js", "TomTom Api", "Pinia"],
-    "image": "src/assets/nearBy.png",
+    "image": "assets/nearBy.png",
     "link": ""
   },
   {
@@ -12,7 +12,7 @@
     "subtitle": "Full MERN PROJECT",
     "description": "The Full mern project that allows users to find the local tours that are around them and also provides tour guides with an interface to add tours.",
     "technologies": ["Nodejs", "Mongodb", "Express", "Ejs"],
-    "image": "src/assets/natours.png",
+    "image": "assets/natours.png",
     "link": ""
   },
   {
@@ -46,7 +46,7 @@
     "subtitle": "Recipe app",
     "description": "The web app that allows one to find the recipes of their favorite food and also bookmark them and access them later.",
     "technologies": ["Javascript", "Recipe API", "Axios"],
-    "image": "src/assets/forkify.png",
+    "image": "assets/forkify.png",
     "link": "https://fani-forkify.netlify.app/"
   },
   {
@@ -54,7 +54,7 @@
     "subtitle": "A Full vue music player project",
     "description": "The music player which allows users to upload and listen to music either uploaded by other users or by themselves.",
     "technologies": ["Vue", "Pinia", "Firebase - Firestore, Storage"],
-    "image": "src/assets/music-player.png",
+    "image": "assets/music-player.png",
     "link": ""
   }
 ]
