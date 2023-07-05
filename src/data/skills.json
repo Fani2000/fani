@@ -1,0 +1,82 @@
+[
+  {
+    "lang": "C#",
+    "icon": ""
+  },
+  {
+    "lang": "MySql",
+    "icon": ""
+  },
+  {
+    "lang": "Microsoft Sql Server",
+    "icon": ""
+  },
+  {
+    "lang": "Postgress",
+    "icon": ""
+  },
+  {
+    "lang": "Asp.NET",
+    "icon": ""
+  },
+  {
+    "lang": ".NET MAUI",
+    "icon": ""
+  },
+  {
+    "lang": "React Native",
+    "icon": ""
+  },
+  {
+    "lang": "React",
+    "icon": ""
+  },
+  {
+    "lang": "Flutter",
+    "icon": ""
+  },
+  {
+    "lang": "Dart",
+    "icon": ""
+  },
+  {
+    "lang": "Vuejs",
+    "icon": ""
+  },
+  {
+    "lang": "Docker",
+    "icon": ""
+  },
+  {
+    "lang": "Python",
+    "icon": ""
+  },
+  {
+    "lang": "Flask",
+    "icon": ""
+  },
+  {
+    "lang": "Django",
+    "icon": ""
+  },
+  {
+    "lang": "Nodejs",
+    "icon": ""
+  },
+  {
+    "lang": "Kafka",
+    "icon": ""
+  },
+  {
+    "lang": "MQTT",
+    "icon": ""
+  },
+  {
+    "lang": "Tensorflow",
+    "icon": ""
+  },
+  {
+    "lang": "Github Actions",
+    "icon": ""
+  }
+]
