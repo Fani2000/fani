@@ -6,7 +6,7 @@
     <div class="w-[46rem] h-[200px] flex flex-col gap-5 items-start">
       <div class="w-30 flex flex-row gap-x-3 text-white items-center">
         <div class="rounded">
-          <img src="src/assets/fani.png" class="w-20 h-20" alt="Fani Image" />
+          <img :src="userProfile" class="w-20 h-20" alt="Fani Image" />
         </div>
         <div class="flex flex-col">
           <div>Fani Keorapetse</div>
@@ -25,3 +25,7 @@
     <!-- <div class=""></div> -->
   </div>
 </template>
+
+<script setup>
+import userProfile from '../assets/fani.png'
+</script>
