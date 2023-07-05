@@ -42,12 +42,12 @@
     "link": ""
   },
   {
-    "title": "Peer-To-Peer",
-    "subtitle": "Realtime video communication web app",
-    "description": "The free video streaming app with google signals, webRTC and javascript to show the users and allow them to communicate with each other",
-    "technologies": ["Javascript", "WebRTC", "Google Signals"],
-    "image": "",
-    "link": ""
+    "title": "Forkify app",
+    "subtitle": "Recipe app",
+    "description": "The web app that allows one to find the recipes of their favorite food and also bookmark them and access them later.",
+    "technologies": ["Javascript", "Recipe API", "Axios"],
+    "image": "src/assets/forkify.png",
+    "link": "https://fani-forkify.netlify.app/"
   },
   {
     "title": "Music Player",
