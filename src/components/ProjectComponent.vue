@@ -26,7 +26,7 @@
       </div>
       <div className="flex flex-wrap -m-4 text-white">
         <template v-for="project in projects" :key="project.title">
-          <a :href="project.link" className="sm:w-1/2 w-100 p-4">
+          <a :href="project.link" target="_blank" className="sm:w-1/2 w-100 p-4">
             <div className="flex relative">
               <img
                 alt="gallery"
