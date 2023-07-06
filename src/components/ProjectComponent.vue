@@ -59,6 +59,7 @@ import natours from "../assets/natours.png";
 import musicPlayer from "../assets/music-player.png";
 import nearBy from "../assets/nearBy.png";
 import forkify from "../assets/forkify.png";
+import nasa from "../assets/nasa.png";
 
 const projects = [
   {
@@ -68,43 +69,8 @@ const projects = [
       "This is the vue app that allows you to find the nearby places around you using tomtom map api and services to do requests.",
     technologies: ["Vue js", "TomTom Api", "Pinia"],
     image: nearBy,
-    link: "",
+    link: "https://silver-zuccutto-d07a71.netlify.app/",
   },
-  {
-    title: "Natours project",
-    subtitle: "Full MERN PROJECT",
-    description:
-      "The Full mern project that allows users to find the local tours that are around them and also provides tour guides with an interface to add tours.",
-    technologies: ["Nodejs", "Mongodb", "Express", "Ejs"],
-    image: natours,
-    link: "",
-  },
-    {
-      "title": "Nasa sample project",
-      "subtitle": "MERN Stack project",
-      "description": "The complete MERN stack project with containers, process managers and react frontend, using mongodb to store collections and data from the nasa public api.",
-      "technologies": [
-        "Nodejs",
-        "Express",
-        "Mongodb",
-        "Reactjs",
-        "Redux-toolkit",
-        "Docker",
-        "pm2",
-        "JWT",
-        "More express related middlewares"
-      ],
-      "image": "",
-      "link": ""
-    },
-  //   {
-  //     "title": "FlutterFire_Chat_app",
-  //     "subtitle": "Flutter mobile app for chatting with friends.",
-  //     "description": "The full flutter project with provider and firebase to store and allows users to chat with each other via firebase realtime database.",
-  //     "technologies": ["Flutter", "Dart", "Firebase", "Provider"],
-  //     "image": "",
-  //     "link": ""
-  //   },
   {
     title: "Forkify app",
     subtitle: "Recipe app",
@@ -121,6 +87,34 @@ const projects = [
       "The music player which allows users to upload and listen to music either uploaded by other users or by themselves.",
     technologies: ["Vue", "Pinia", "Firebase - Firestore, Storage"],
     image: musicPlayer,
+    link: "https://stunning-caramel-1fc7d9.netlify.app/",
+  },
+  {
+    title: "Natours project",
+    subtitle: "Full MERN PROJECT",
+    description:
+      "The Full mern project that allows users to find the local tours that are around them and also provides tour guides with an interface to add tours.",
+    technologies: ["Nodejs", "Mongodb", "Express", "Ejs"],
+    image: natours,
+    link: "",
+  },
+  {
+    title: "Nasa sample project",
+    subtitle: "MERN Stack project",
+    description:
+      "The complete MERN stack project with containers, process managers and react frontend, using mongodb to store collections and data from the nasa public api.",
+    technologies: [
+      "Nodejs",
+      "Express",
+      "Mongodb",
+      "Reactjs",
+      "Redux-toolkit",
+      "Docker",
+      "pm2",
+      "JWT",
+      "More express related middlewares",
+    ],
+    image: nasa,
     link: "",
   },
 ];
