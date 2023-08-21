@@ -1,8 +1,5 @@
 <template>
-  <div
-    id="About"
-    class="h-[500px] flex flex-row justify-center p-16 text-white font-mono"
-  >
+  <div id="About" class="h-[500px] flex flex-row bg-secondary p-16 text-white font-mono">
     <div class="w-[46rem] h-[200px] flex flex-col gap-5 items-start">
       <div class="w-30 flex flex-row gap-x-3 text-white items-center">
         <div class="rounded">
@@ -27,5 +24,5 @@
 </template>
 
 <script setup>
-import userProfile from '../assets/fani.png'
+import userProfile from "../assets/fani.png";
 </script>

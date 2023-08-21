@@ -1,47 +1,21 @@
 <template>
   <div
-    class="sticky top-0 z-10 bg-primary h-4 flex flex-row justify-between items-center p-5 mt-2 text-white border-gray-400 border-b-2"
+    class="sticky top-0 z-10 bg-primary h-10 flex flex-row justify-between items-center px-5 my-2 text-white"
   >
-    <!-- <img class="w-20 h-20" src="src/assets/logo.png" alt="ChitChat Logo" /> -->
     <div
       class="font-mono relative hover:cursor-pointer"
       @click="handleSelectSection('Main')"
     >
-      <div
-        class="absolute top-[-6px] left-[-2px] text-4xl opacity-50 text-black"
-      >
-        F | K
-      </div>
-      <div
-        class="opacity-50 text-white bg-secondary px-2 rounded-md ml-[-15px] mt-1"
-      >
-        Fani Keorapetse
-      </div>
+      <img :src="logo" class="w-[40%]" />
     </div>
 
-    <div class="flex flex-row gap-x-5 text-sm text-white">
-      <button
-        @click="handleSelectSection('About')"
-        class="hover:text-blue-700 hover:cursor-pointer"
-      >
-        About
-      </button>
-      <button
-        @click="handleSelectSection('Skills')"
-        class="hover:text-blue-700 hover:cursor-pointer"
-      >
-        Skills
-      </button>
-      <button
-        @click="handleSelectSection('Projects')"
-        class="hover:text-blue-700 hover:cursor-pointer"
-      >
+    <div class="nav">
+      <button @click="handleSelectSection('About')" class="btn">About</button>
+      <button @click="handleSelectSection('Skills')" class="btn">Skills</button>
+      <button @click="handleSelectSection('Projects')" class="btn">
         Projects
       </button>
-      <button
-        @click="handleSelectSection('Contact')"
-        class="hover:text-blue-700 hover:cursor-pointer"
-      >
+      <button @click="handleSelectSection('Contact')" class="btn button">
         Contact
       </button>
     </div>
@@ -49,8 +23,47 @@
 </template>
 
 <script setup>
+import logo from "../assets/logo.png";
 const emits = defineEmits({ SwitchSection: Function });
+
 const handleSelectSection = (tab) => {
   emits("SwitchSection", tab);
 };
 </script>
+<style scoped>
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 40%;
+  gap: 10px;
+}
+.nav .btn {
+  margin-right: 2.1%;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: transparent;
+  color: #999c9e;
+  border: none;
+  font-weight: 600;
+}
+.nav .btn.selected {
+  color: #fff;
+}
+.nav .btn:hover {
+  color: #20bf55;
+}
+.nav .button {
+  background-color: inherit;
+  color: #20bf55;
+  border-radius: 25px;
+  border: #20bf55 2px solid;
+  height: 32px;
+  width: 133px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.nav .button:hover {
+  color: #ffff;
+  background-color: #20bf55;
+}
+</style>

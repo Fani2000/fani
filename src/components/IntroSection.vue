@@ -1,5 +1,9 @@
 <template>
-  <div
+  <div class="row-container">
+    <BioComponent />
+    <SkillsShowcase />
+  </div>
+  <!-- <div
     id="Main"
     class="bg-gradient-to-r from-transparent to-black relative h-[450px]"
   >
@@ -21,9 +25,36 @@
         are into.
       </div>
     </div>
-  </div>
+  </div> -->
 </template>
 
 <script setup>
 import hero from "../assets/hero.jpg";
+import BioComponent from "./BioComponent.vue";
+import SkillsShowcase from "./SkillsShowcase.vue";
 </script>
+<style>
+.row-container {
+  width: 90%;
+  /* height: 90%; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  /* margin: 0% 50px; */
+  align-items: center;
+  /* position: relative; */
+}
+
+@media screen and (max-width: 1000px) {
+  .row-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+</style>

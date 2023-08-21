@@ -8,7 +8,7 @@ module.exports = {
       //     "linear-gradient(to right bottom, rgba('#7ed56f',0.8), url('./src/assets/hero.jpg')",
       // },
       colors: {
-        primary: "#1d3557",
+        primary: "#00080d",
         secondary: "#1b263b",
         // accent: "#003049",
       },
