@@ -7,7 +7,7 @@ import SkillsComponent from "./SkillsComponent.vue";
 </script>
 
 <template>
-  <div class="h-screen flex flex-col gap-y-4">
+  <div class="h-screen flex flex-col">
      <!-- <font-awesome-icon icon="fa-solid fa-user-secret" /> -->
     <AboutComponent  />
     <SkillsComponent />
