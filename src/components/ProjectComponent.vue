@@ -54,7 +54,6 @@
   </section>
 </template>
 <script setup>
-import projects from "../data/projects.json";
 import natours from "../assets/natours.png";
 import musicPlayer from "../assets/music-player.png";
 import nearBy from "../assets/nearBy.png";
