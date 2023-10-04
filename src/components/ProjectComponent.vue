@@ -26,7 +26,11 @@
       </div>
       <div className="flex flex-wrap m-4 text-white">
         <template v-for="project in projects" :key="project.title">
-          <a :href="project.link" target="_blank" className="sm:w-1/2 w-100 p-4">
+          <a
+            :href="project.link"
+            target="_blank"
+            className="sm:w-1/2 w-100 p-4"
+          >
             <div className="flex relative">
               <img
                 alt="gallery"
@@ -54,64 +58,94 @@
   </section>
 </template>
 <script setup>
-import projects from "../data/projects.json";
-
-
-// const projects = [
-//   {
-//     title: "Mapty-With-Leaflet",
-//     subtitle: "Find the nearby places around your location.",
-//     description:
-//       "This is the vue app that allows you to find the nearby places around you using tomtom map api and services to do requests.",
-//     technologies: ["Vue js", "TomTom Api", "Pinia"],
-//     image: nearBy,
-//     link: "https://silver-zuccutto-d07a71.netlify.app/",
-//   },
-//   {
-//     title: "Forkify app",
-//     subtitle: "Recipe app",
-//     description:
-//       "The web app that allows one to find the recipes of their favorite food and also bookmark them and access them later.",
-//     technologies: ["Javascript", "Recipe API", "Axios"],
-//     image: forkify,
-//     link: "https://fani-forkify.netlify.app/",
-//   },
-//   {
-//     title: "Music Player",
-//     subtitle: "A Full vue music player project",
-//     description:
-//       "The music player which allows users to upload and listen to music either uploaded by other users or by themselves.",
-//     technologies: ["Vue", "Pinia", "Firebase - Firestore, Storage"],
-//     image: musicPlayer,
-//     link: "https://stunning-caramel-1fc7d9.netlify.app/",
-//   },
-//   {
-//     title: "Natours project",
-//     subtitle: "Full MERN PROJECT",
-//     description:
-//       "The Full mern project that allows users to find the local tours that are around them and also provides tour guides with an interface to add tours.",
-//     technologies: ["Nodejs", "Mongodb", "Express", "Ejs"],
-//     image: natours,
-//     link: "",
-//   },
-//   {
-//     title: "Nasa sample project",
-//     subtitle: "MERN Stack project",
-//     description:
-//       "The complete MERN stack project with containers, process managers and react frontend, using mongodb to store collections and data from the nasa public api.",
-//     technologies: [
-//       "Nodejs",
-//       "Express",
-//       "Mongodb",
-//       "Reactjs",
-//       "Redux-toolkit",
-//       "Docker",
-//       "pm2",
-//       "JWT",
-//       "More express related middlewares",
-//     ],
-//     image: nasa,
-//     link: "",
-//   },
-// ];
+const projects = [
+  {
+    title: "Mapty-With-Leaflet",
+    subtitle: "Find the nearby places around your location.",
+    description:
+      "This is the vue app that allows you to find the nearby places around you using tomtom map api and services to do requests.",
+    technologies: ["Vue js", "TomTom Api", "Pinia"],
+    image: "src/assets/nearBy.png",
+    link: "https://silver-zuccutto-d07a71.netlify.app/",
+  },
+  {
+    title: "Natours project",
+    subtitle: "Full MERN PROJECT",
+    description:
+      "The Full mern project that allows users to find the local tours that are around them and also provides tour guides with an interface to add tours.",
+    technologies: ["Nodejs", "Mongodb", "Express", "Ejs"],
+    image: "src/assets/natours.png",
+    link: "https://github.com/Fani2000/natours-Project",
+  },
+  {
+    title: "Nasa sample project",
+    subtitle: "MERN Stack project",
+    description:
+      "The complete MERN stack project with containers, process managers and react frontend, using mongodb to store collections and data from the nasa public api.",
+    technologies: [
+      "Nodejs",
+      "Express",
+      "Mongodb",
+      "Reactjs",
+      "Redux-toolkit",
+      "Docker",
+      "pm2",
+      "JWT",
+      "More express related middlewares",
+    ],
+    image: "src/assets/nasa.png",
+    link: "https://github.com/Fani2000/nasa",
+  },
+  {
+    title: "Forkify app",
+    subtitle: "Recipe app",
+    description:
+      "The web app that allows one to find the recipes of their favorite food and also bookmark them and access them later.",
+    technologies: ["Javascript", "Recipe API", "Axios"],
+    image: "src/assets/forkify.png",
+    link: "https://fani-forkify.netlify.app/",
+  },
+  {
+    title: "Music Player",
+    subtitle: "A Full vue music player project",
+    description:
+      "The music player which allows users to upload and listen to music either uploaded by other users or by themselves.",
+    technologies: ["Vue", "Pinia", "Firebase - Firestore, Storage"],
+    image: "src/assets/music-player.png",
+    link: "https://stunning-caramel-1fc7d9.netlify.app/",
+  },
+  {
+    title: "ZeroRevenue",
+    subtitle: "revenue app",
+    description:
+      "The monitoring system for the emergency app that we developed in one day during the hackerthon.",
+    technologies: [
+      "Reactjs",
+      "Material UI",
+      "Firebase",
+      "Termor design system",
+      "Figma Designs",
+    ],
+    image: "src/assets/zeroRevenue.png",
+    link: "https://github.com/Fani2000/ZeroRevenue",
+  },
+  {
+    title: "Emergency",
+    subtitle: "Emergency APP",
+    description:
+      "The Emergency app for people at rural areas to use to call/contact public health services.",
+    technologies: ["REACT NATIVE", "FIREBASE", "EXPO"],
+    image: "src/assets/emergency.png",
+    link: "",
+  },
+  {
+    title: "FlutterFire_Chat_app",
+    subtitle: "Flutter mobile app for chatting with friends.",
+    description:
+      "The full flutter project with provider and firebase to store and allows users to chat with each other via firebase realtime database.",
+    technologies: ["Flutter", "Dart", "Firebase", "Provider"],
+    image: "",
+    link: "https://github.com/Fani2000/flutterfire_chat_app",
+  },
+];
 </script>
